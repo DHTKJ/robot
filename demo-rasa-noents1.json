@@ -1,0 +1,582 @@
+{
+  "rasa_nlu_data": {
+    "entity_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "what can you do for me", 
+        "intent": "help", 
+        "entities": []
+      }, 
+      {
+        "text": "how can you help me", 
+        "intent": "help", 
+        "entities": []
+      }, 
+      {
+        "text": "show me what you can do", 
+        "intent": "help", 
+        "entities": []
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "what's you function", 
+        "intent": "help", 
+        "entities": []
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "seeyou", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "help", 
+        "intent": "help", 
+        "entities": []
+      }, 
+      {
+        "text": "help me", 
+        "intent": "help", 
+        "entities": []
+      }, 
+      {
+        "text": "please help me", 
+        "intent": "help", 
+        "entities": []
+      }, 
+      {
+        "text": "I need your help", 
+        "intent": "help", 
+        "entities": []
+      }, 
+      {
+        "text": "indeed", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "that's right", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "ok", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "great", 
+        "intent": "affirm", 
+        "entities": []
+      },
+      {
+        "text": "thanks", 
+        "intent": "thankyou", 
+        "entities": []
+      },
+      {
+        "text": "thx", 
+        "intent": "thankyou", 
+        "entities": []
+      },
+      {
+        "text": "thankyou", 
+        "intent": "thankyou", 
+        "entities": []
+      },
+      {
+        "text": "thankyou very much", 
+        "intent": "thankyou", 
+        "entities": []
+      },
+      {
+        "text": "thank", 
+        "intent": "thankyou", 
+        "entities": []
+      },
+      {
+        "text": "what's the weather today", 
+        "intent": "weather_ask", 
+        "entities": []
+      },
+      {
+        "text": "what's the weather like today", 
+        "intent": "weather_ask", 
+        "entities": []
+      },
+      {
+        "text": "what's the weather", 
+        "intent": "weather_ask", 
+        "entities": []
+      },
+      {
+        "text": "show me today's weather", 
+        "intent": "weather_ask", 
+        "entities": []
+      },
+      {
+        "text": "Tell me the price of tsla", 
+        "intent": "stock_ask", 
+        "entities": []
+      },
+      {
+        "text": "show me the price of tsla", 
+        "intent": "stock_ask", 
+        "entities": []
+      },
+      {
+        "text": "what about the price of tsla", 
+        "intent": "stock_ask", 
+        "entities": []
+      },
+      {
+        "text": "show me about tsla", 
+        "intent": "stock_ask", 
+        "entities": []
+      },
+      {
+        "text": "tell me the historical price of ", 
+        "intent": "stock_ask",
+        "entities": []
+      },
+      {
+        "text": "show me the historcial of", 
+        "intent": "stock_ask", 
+        "entities": []
+      },
+      {
+        "text": "I want know the last month price of ", 
+        "intent": "stock_ask", 
+        "entities": []
+      },
+      {
+        "text": "I want know the last day price of", 
+        "intent": "stock_ask", 
+        "entities": []
+      },
+      {
+        "text": "I want know the last year price of ", 
+        "intent": "stock_ask", 
+        "entities": []
+      },
+      {
+        "text": "and what about next Tuesday", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "and what about  next Friday", 
+        "intent": "weather_continue", 
+        "entities": []
+      }, 
+      {
+        "text": "and what about next Monday", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "and what about next Thursday", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "and what about next Wednesday", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "and what about next Saturday", 
+        "intent": "weather_continue", 
+        "entities": []
+      },        
+      {
+        "text": "I also want to know", 
+        "intent": "continue", 
+        "entities": []
+      },
+      {
+        "text": "what about Tuesday", 
+        "intent": "continue", 
+        "entities": []
+      },
+      {
+        "text": "today", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "tomorrow", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "Monday", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "Tuesday", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "Wednesday", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "Thursday", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "Friday", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "Saturday", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "Sunday", 
+        "intent": "weekday_ask", 
+        "entities": []
+      },
+      {
+        "text": "beijing", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "shanghai", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "Shanghai", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "Shandong", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "shandong", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "Heilongjiang", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "heilongjiang", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "Jiling", 
+        "intent": "weather_continue", 
+        "entities": []
+      },
+      {
+        "text": "jiling", 
+        "intent": "weather_continue", 
+        "entities": []
+      }
+    ], 
+    "intent_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "what can you do for me", 
+        "intent": "help"
+      }, 
+      {
+        "text": "how can you help me", 
+        "intent": "help"
+      }, 
+      {
+        "text": "show me what you can do", 
+        "intent": "help"
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "what's your function", 
+        "intent": "help"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye"
+      },
+      {
+        "text": "seeyou", 
+        "intent": "goodbye"
+      },
+      {
+        "text": "help", 
+        "intent": "help"
+      }, 
+      {
+        "text": "help me", 
+        "intent": "help"
+      }, 
+      {
+        "text": "please help me", 
+        "intent": "help"
+      }, 
+      {
+        "text": "I need your help", 
+        "intent": "help"
+      }, 
+      {
+        "text": "indeed", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "that's right", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "ok", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "great", 
+        "intent": "affirm"
+      },
+      {
+        "text": "thanks", 
+        "intent": "thankyou"
+      },
+      {
+        "text": "thx", 
+        "intent": "thankyou"
+      },
+      {
+        "text": "thankyou", 
+        "intent": "thankyou"
+      },
+      {
+        "text": "thank", 
+        "intent": "thankyou"
+      },
+      {
+        "text": "what's the weather today", 
+        "intent": "weather_ask"
+      },
+      {
+        "text": "what's the weather like", 
+        "intent": "weather_ask" 
+      },
+      {
+        "text": "what's the weather", 
+        "intent": "weather_ask"
+      },
+      {
+        "text": "show me today's weather", 
+        "intent": "weather_ask"
+      },
+      {
+        "text": "Tell me the price of ", 
+        "intent": "stock_ask" 
+      },
+      {
+        "text": "show me the price of ", 
+        "intent": "stock_ask" 
+      },
+      {
+        "text": "what about ", 
+        "intent": "stock_ask" 
+      },
+      {
+        "text": "show me about ", 
+        "intent": "stock_ask" 
+      },
+      {
+        "text": "tell me the historical price of ", 
+        "intent": "stock_historical_ask" 
+      },
+      {
+        "text": "show me the historcial of ", 
+        "intent": "stock_historical_ask" 
+      },
+      {
+        "text": "and what about", 
+        "intent": "continue" 
+      },
+      {
+        "text": "I also want to know", 
+        "intent": "continue" 
+      },
+      {
+        "text": "what about", 
+        "intent": "continue" 
+      },
+      {
+        "text": "I want know the last month price of ", 
+        "intent": "stock_historical_ask" 
+      },
+      {
+        "text": "I want know the last day price of ", 
+        "intent": "stock_historical_ask"
+      },
+      {
+        "text": "I want know the last year price of ", 
+        "intent": "stock_historical_ask" 
+      },
+      {
+        "text": "today", 
+        "intent": "weekday_ask"
+      },
+      {
+        "text": "tomorrow", 
+        "intent": "weekday_ask" 
+      },
+      {
+        "text": "Monday", 
+        "intent": "weekday_ask" 
+      },
+      {
+        "text": "Tuesday", 
+        "intent": "weekday_ask" 
+      },
+      {
+        "text": "Wednesday", 
+        "intent": "weekday_ask" 
+      },
+      {
+        "text": "Thursday", 
+        "intent": "weekday_ask" 
+      },
+      {
+        "text": "Friday", 
+        "intent": "weekday_ask" 
+      },
+      {
+        "text": "Saturday", 
+        "intent": "weekday_ask" 
+      },
+      {
+        "text": "Sunday", 
+        "intent": "weekday_ask" 
+      },
+      {
+        "text": "beijing", 
+        "intent": "weather_continue" 
+      }    
+    ]
+  }
+}
