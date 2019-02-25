@@ -1,5 +1,18 @@
 ROBOT: A Simple chatbot
 
 Content:
-composition
-applications
+·composition
+·applications
+
+
+Compostion:
+·Rasa_nlu
+·spacy
+·en_core_web_md
+·wxpy
+
+applications:
+·NLU
+·RNN
+·deny entities
+·Several rounds of inquiry
